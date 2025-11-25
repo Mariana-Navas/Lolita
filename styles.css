@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height:1.6;
+    background-color: beige;
+    color:#333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border:2px solid #333;
+
+}
+
+.btn {
+    padding:20px 40px;
+    margin-top:10px;
+    border-radius: 5px;
+}
+
+/* FORMULARIO */
+.contacto {
+    padding:20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.form .campo {
+    margin-bottom: 15px;
+
+}
+
+.btn-enviar {
+    background-color:cadetblue;
+    color:aliceblue;
+    cursor:pointer;
+
+}
+
+.btn-enviar:hover {
+    background-color: azure;
+    color:black;
+    
+}
+
+.btn-borrar {
+    background-color: red;
+    color:white;
+    cursor:pointer;
+}
